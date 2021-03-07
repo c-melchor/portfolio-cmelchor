@@ -317,6 +317,7 @@
 			img {
 				width: 48px;
 				height: 48px;
+				border-radius: 10px;
 			}
 		}
 
@@ -759,7 +760,7 @@
 
 			&.one {
 				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
+				background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url('../images/banner-01.jpeg');
 			}
 
 			&.two {

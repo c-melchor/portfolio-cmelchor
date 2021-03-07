@@ -4,13 +4,10 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import SecretRecipes from '../assets/images/pic09.png';
+
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,11 +26,11 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Christina</strong>
               <br />
-              Web developer
+              I'm a web developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>I've made a few things, check them out.</p>
           </header>
 
           <footer>
@@ -46,6 +43,20 @@ const IndexPage = () => (
         </div>
       </section>
 
+      <section id="about" className="three">
+        <div className="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
+          <p>
+            2020 was a life changing year for many people, myself included. I was furloughed from my job when the COVID-19 pandemic began and I knew it was the perfect time to make a career change. I had always loved the idea of creating beautiful user friendly websites and applications but never had the confidence to begin learning. "I'm not smart enough, what if I fail?" was a thought that frequented my mind; however, I pushed the thought aside and enrolled in Lambda School's Full Stack Web Development course.
+
+  I am truly amazed at the amount of things I have learned since I have started the course, and am happy to have developed this love for all things coding.
+
+          </p>
+        </div>
+      </section>
+
       <section id="portfolio" className="two">
         <div className="container">
           <header>
@@ -53,28 +64,17 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            I've worked on multiple projects this last year utilizing React, Redux, and Node. <br />Here are a few of those projects.
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
+                <a href="https://github.com/BW-TT32-Secret-Family-Recipes" className="image fit" target="_blank">
+                  <img src={SecretRecipes} alt="Home page of a project I worked on, titled Secret Family Recipes" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
-                </a>
-                <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Secret Family Recipes</h3>
                 </header>
               </article>
             </div>
@@ -84,15 +84,7 @@ const IndexPage = () => (
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Project Here</h3>
                 </header>
               </article>
             </div>
@@ -102,41 +94,11 @@ const IndexPage = () => (
                   <img src={pic6} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>Project Here</h3>
                 </header>
               </article>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="about" className="three">
-        <div className="container">
-          <header>
-            <h2>About Me</h2>
-          </header>
-
-          <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a>
-
-          <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
-          </p>
         </div>
       </section>
 
@@ -147,11 +109,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Are you looking for a JavaScript developer with experience in React, Redux, and Node? <br />Drop me a message, I would love to chat! I look forward to hearing from you.
           </p>
 
           <form method="post" action="#">
