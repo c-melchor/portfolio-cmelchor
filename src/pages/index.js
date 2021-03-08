@@ -1,20 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/Layout';
-import PageFooter from '../components/PageFooter';
-import SideBar from '../components/SideBar';
+import Layout from "../components/Layout";
+import PageFooter from "../components/PageFooter";
+import SideBar from "../components/SideBar";
 
-import pic4 from '../assets/images/pic04.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import SecretRecipes from '../assets/images/pic09.png';
+import SecretRecipes from "../assets/images/secretrecipes.png";
+import AfricanMarketplace from "../assets/images/africanmarketplace.png";
 
-import Scroll from '../components/Scroll';
+import Scroll from "../components/Scroll";
 
 const sections = [
-  { id: 'top', name: 'Intro', icon: 'fa-home' },
-  { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
-  { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  { id: "top", name: "Intro", icon: "fa-home" },
+  { id: "about", name: "About Me", icon: "fa-user" },
+  { id: "portfolio", name: "Portfolio", icon: "fa-th" },
+  { id: "contact", name: "Contact", icon: "fa-envelope" },
 ];
 
 const IndexPage = () => (
@@ -34,7 +33,7 @@ const IndexPage = () => (
           </header>
 
           <footer>
-            <Scroll type="id" element={'portfolio'}>
+            <Scroll type="id" element={"portfolio"}>
               <a href="#portfolio" className="button">
                 Show me
               </a>
@@ -70,8 +69,8 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="https://github.com/BW-TT32-Secret-Family-Recipes" className="image fit" target="_blank">
-                  <img src={SecretRecipes} alt="Home page of a project I worked on, titled Secret Family Recipes" />
+                <a href="https://github.com/BW-TT32-Secret-Family-Recipes/back-end" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={SecretRecipes} alt="Home page of a project titled 'Secret Family Recipes'" />
                 </a>
                 <header>
                   <h3>Secret Family Recipes</h3>
@@ -80,15 +79,15 @@ const IndexPage = () => (
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
+                <a href="https://github.com/BW-AfricanMarketplace-TT32/front-end" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={AfricanMarketplace} alt="Home page of a project titled 'African Marketplace'" />
                 </a>
                 <header>
-                  <h3>Project Here</h3>
+                  <h3>African Marketplace</h3>
                 </header>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic6} alt="" />
@@ -97,7 +96,7 @@ const IndexPage = () => (
                   <h3>Project Here</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
