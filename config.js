@@ -26,11 +26,6 @@ module.exports = {
       icon: "fa-linkedin",
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/camelchor/"
-    },
-    {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:cah.melchor@gmail.com',
-    },
+    }
   ],
 };

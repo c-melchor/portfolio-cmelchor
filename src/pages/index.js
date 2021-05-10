@@ -6,14 +6,17 @@ import SideBar from "../components/SideBar";
 
 import SecretRecipes from "../assets/images/secretrecipes.png";
 import AfricanMarketplace from "../assets/images/africanmarketplace.png";
+import Jokes from "../assets/images/jokes.png";
+import Rick from "../assets/images/Rick.png";
+import OMDB from "../assets/images/OMDB.png";
+
 
 import Scroll from "../components/Scroll";
 
 const sections = [
   { id: "top", name: "Intro", icon: "fa-home" },
   { id: "about", name: "About Me", icon: "fa-user" },
-  { id: "portfolio", name: "Portfolio", icon: "fa-th" },
-  { id: "contact", name: "Contact", icon: "fa-envelope" },
+  { id: "portfolio", name: "Portfolio", icon: "fa-th" }
 ];
 
 const IndexPage = () => (
@@ -48,10 +51,8 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
           <p>
-            2020 was a life changing year for many people, myself included. I was furloughed from my job when the COVID-19 pandemic began and I knew it was the perfect time to make a career change. I had always loved the idea of creating beautiful user friendly websites and applications but never had the confidence to begin learning. "I'm not smart enough, what if I fail?" was a thought that frequented my mind; however, I pushed the thought aside and enrolled in Lambda School's Full Stack Web Development course.
-
-  I am truly amazed at the amount of things I have learned since I have started the course, and am happy to have developed this love for all things coding.
-
+            Hi, <span role="img" aria-label="waving hand">👋</span> I'm Christina and I'm a fitness geek turned web development nerd.<br />
+            2020 turned my life upside down in the <strong>BEST</strong> way; I was furloughed from my job in the fitness industry and decided to enroll in <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School's</a> Web Devlopment program. Over the course of the last year, I'vee built applications utilizing React, Redux, a little bit of Node. It's been a whirlwind of emotions but I am eagerly seeking new opportunities in the tech industry. I can be reached on <a href="https://www.linkedin.com/in/camelchor/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, I look forward to hearing from you!
           </p>
         </div>
       </section>
@@ -69,11 +70,11 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="https://github.com/BW-TT32-Secret-Family-Recipes/back-end" className="image fit" target="_blank" rel="noopener noreferrer">
-                  <img src={SecretRecipes} alt="Home page of a project titled 'Secret Family Recipes'" />
+                <a href="https://rickandmorty-ivory.vercel.app/" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={Rick} alt="Home page of a project titled 'Rick and Morty'" />
                 </a>
                 <header>
-                  <h3>Secret Family Recipes</h3>
+                  <h3>Rick and Morty</h3>
                 </header>
               </article>
             </div>
@@ -87,46 +88,37 @@ const IndexPage = () => (
                 </header>
               </article>
             </div>
-            {/* <div className="col-4 col-12-mobile">
+            <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
+                <a href="https://github.com/BW-TT32-Secret-Family-Recipes/back-end" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={SecretRecipes} alt="Home page of a project titled 'Secret Family Recipes'" />
                 </a>
                 <header>
-                  <h3>Project Here</h3>
+                  <h3>Secret Family Recipes</h3>
                 </header>
               </article>
-            </div> */}
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" className="four">
-        <div className="container">
-          <header>
-            <h2>Contact</h2>
-          </header>
-
-          <p>
-            Are you looking for a JavaScript developer with experience in React, Redux, and Node? <br />Drop me a message, I would love to chat! I look forward to hearing from you.
-          </p>
-
-          <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
             </div>
-          </form>
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a href="https://jokes-liart.vercel.app/" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={Jokes} alt="Home page of a project titled 'Jokes'" />
+                </a>
+                <header>
+                  <h3>Jokes</h3>
+                </header>
+              </article>
+            </div>
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a href="https://omdb-nominations-4afxpp43y-c-melchor.vercel.app/" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={OMDB} alt="Home page of a project titled 'OMDB Movie App'" />
+                </a>
+                <header>
+                  <h3>OMDB Movie App</h3>
+                </header>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
     </div>
