@@ -9,8 +9,6 @@ import AfricanMarketplace from "../assets/images/africanmarketplace.png";
 import Jokes from "../assets/images/jokes.png";
 import Rick from "../assets/images/Rick.png";
 import OMDB from "../assets/images/OMDB.png";
-
-
 import Scroll from "../components/Scroll";
 
 const sections = [
@@ -52,7 +50,7 @@ const IndexPage = () => (
           </header>
           <p>
             Hi, <span role="img" aria-label="waving hand">👋</span> I'm Christina and I'm a fitness geek turned web development nerd.<br />
-            2020 turned my life upside down in the <strong>BEST</strong> way; I was furloughed from my job in the fitness industry and decided to enroll in <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School's</a> Web Devlopment program. Over the course of the last year, I'vee built applications utilizing React, Redux, a little bit of Node. It's been a whirlwind of emotions but I am eagerly seeking new opportunities in the tech industry. I can be reached on <a href="https://www.linkedin.com/in/camelchor/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, I look forward to hearing from you!
+            2020 turned my life upside down in the <strong>BEST</strong> way; I was furloughed from my job in the fitness industry and decided to enroll in <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School's</a> Web Devlopment program. Over the course of the last year, I've built applications utilizing React, Redux, a little bit of Node - these projects are showcased below, linked either the repo I worked on or the deployed site. It's been a whirlwind of emotions but I am eagerly seeking new opportunities in the tech industry. I can be reached on <a href="https://www.linkedin.com/in/camelchor/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, I look forward to hearing from you!
           </p>
         </div>
       </section>
@@ -80,26 +78,6 @@ const IndexPage = () => (
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="https://github.com/BW-AfricanMarketplace-TT32/front-end" className="image fit" target="_blank" rel="noopener noreferrer">
-                  <img src={AfricanMarketplace} alt="Home page of a project titled 'African Marketplace'" />
-                </a>
-                <header>
-                  <h3>African Marketplace</h3>
-                </header>
-              </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="https://github.com/BW-TT32-Secret-Family-Recipes/back-end" className="image fit" target="_blank" rel="noopener noreferrer">
-                  <img src={SecretRecipes} alt="Home page of a project titled 'Secret Family Recipes'" />
-                </a>
-                <header>
-                  <h3>Secret Family Recipes</h3>
-                </header>
-              </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
                 <a href="https://jokes-liart.vercel.app/" className="image fit" target="_blank" rel="noopener noreferrer">
                   <img src={Jokes} alt="Home page of a project titled 'Jokes'" />
                 </a>
@@ -115,6 +93,26 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>OMDB Movie App</h3>
+                </header>
+              </article>
+            </div>
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a href="https://github.com/BW-AfricanMarketplace-TT32/front-end" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={AfricanMarketplace} alt="Home page of a project titled 'African Marketplace'" />
+                </a>
+                <header>
+                  <h3>African Marketplace</h3>
+                </header>
+              </article>
+            </div>
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a href="https://github.com/BW-TT32-Secret-Family-Recipes/back-end" className="image fit" target="_blank" rel="noopener noreferrer">
+                  <img src={SecretRecipes} alt="Home page of a project titled 'Secret Family Recipes'" />
+                </a>
+                <header>
+                  <h3>Secret Family Recipes</h3>
                 </header>
               </article>
             </div>
